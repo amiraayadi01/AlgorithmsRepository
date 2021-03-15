@@ -24,8 +24,21 @@ public class RussianPeasantAlgo {
      */
     
     public static int multiply(int[] a) {
-        //insert your multiplication code here
+        
+            int res = 0;   
+            int b = 0;
+            int a1 = 0;
+            
+            while (b > 0) 
+            { 
 
+                 if ((b & 1) != 0) 
+                     res = res + a1; 
+
+                a1 = a1 << 1; 
+                b = b >> 1; 
+            } 
+            return res; 
 
     } 
 
