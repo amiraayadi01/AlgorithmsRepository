@@ -1,3 +1,4 @@
+package PracticalSolutions;
 public class TowersofHanoi {
 
     public static void towersOfHanoi(int n, char source, char middle, char destination) {

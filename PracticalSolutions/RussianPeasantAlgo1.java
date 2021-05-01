@@ -1,3 +1,4 @@
+package PracticalSolutions;
 import java.util.Random;
 
 public class RussianPeasantAlgo1 {

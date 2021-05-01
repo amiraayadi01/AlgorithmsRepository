@@ -1,3 +1,4 @@
+package PracticalSolutions;
 public class ThreeSumsA {
 
 
